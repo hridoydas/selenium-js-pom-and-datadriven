@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "login": "mocha test/login.test.js"
+    "login": "mocha test/login.test.js",
+    "reg": "mocha test/reg.test.js"
   },
   "author": "hridoy_das",
   "license": "ISC",
