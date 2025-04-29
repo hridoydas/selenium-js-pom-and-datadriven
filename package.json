@@ -1,0 +1,17 @@
+{
+  "name": "selenium-webdriver-automation",
+  "version": "1.0.0",
+  "description": "selenium webdriver",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "login": "mocha test/login.test.js"
+  },
+  "author": "hridoy_das",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.31.0"
+  }
+}
