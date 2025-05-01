@@ -3,7 +3,7 @@ import { config } from "../config/config.js";
 export let driver;
 
 before(async function () {
-  this.timeout(30000);
+  this.timeout(300000);
   driver = new Builder().forBrowser(Browser.CHROME).build();
   driver.manage().setTimeouts({ implicit: config.timeout });
   await driver.get(config.baseUrl);

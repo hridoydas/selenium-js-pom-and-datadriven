@@ -3,9 +3,5 @@
     "email": "batch_ten@yopmail.com",
     "password": "12345678"
   },
-  "signupUser": {
-    "email": "test_user101@yopmail.com",
-    "password": "12345678",
-    "fullname": "test user 101"
-  }
+  "signupUser": {}
 }
