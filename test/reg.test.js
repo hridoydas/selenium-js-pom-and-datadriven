@@ -4,7 +4,7 @@ import testData from "../config/data.json" assert { type: "json" };
 import { driver } from "../utils/hook.js";
 import Utilities from "../utils/utilities.js";
 describe("Evershop site automation", function () {
-  this.timeout(300000);
+  this.timeout(30000);
 
   let loginPage;
   let regPage;
@@ -15,7 +15,8 @@ describe("Evershop site automation", function () {
     regPage = new RegPage(driver);
     utilities = new Utilities();
   });
-  it("Successfully login with valid credentials", async function () {
+
+  it("Successfully Complete Registration with valid Information", async function () {
     await loginPage.clickLoginIcon();
     await regPage.clickCreateAccount();
     const utilitiesData = utilities.generateEmail();

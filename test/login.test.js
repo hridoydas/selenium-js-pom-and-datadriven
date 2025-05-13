@@ -2,7 +2,7 @@ import LoginPage from "../pageObjects/pages/loginPage.js";
 import testData from "../config/data.json" assert { type: "json" };
 import { driver } from "../utils/hook.js";
 describe("Evershop site automation", function () {
-  this.timeout(300000);
+  this.timeout(30000);
 
   let loginPage;
 
